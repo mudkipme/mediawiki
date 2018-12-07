@@ -16,8 +16,8 @@
 	branch = REL1_35
 [submodule "extensions/ConfirmEdit"]
 	path = extensions/ConfirmEdit
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit
-	branch = REL1_35
+	url = https://github.com/mudkipme/mediawiki-extensions-ConfirmEdit.git
+	branch = REL1_33
 [submodule "extensions/Gadgets"]
 	path = extensions/Gadgets
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets
@@ -125,4 +125,58 @@
 [submodule "vendor"]
 	path = vendor
 	url = https://gerrit.wikimedia.org/r/mediawiki/vendor
+	branch = REL1_35
+[submodule "skins/MinervaNeue"]
+	path = skins/MinervaNeue
+	url = https://github.com/wikimedia/mediawiki-skins-MinervaNeue.git
+	branch = REL1_35
+[submodule "extensions/APNG"]
+	path = extensions/APNG
+	url = https://github.com/mudkipme/mediawiki-apng.git
+[submodule "extensions/CirrusSearch"]
+	path = extensions/CirrusSearch
+	url = https://github.com/wikimedia/mediawiki-extensions-CirrusSearch.git
+	branch = REL1_35
+[submodule "extensions/Echo"]
+	path = extensions/Echo
+	url = https://github.com/wikimedia/mediawiki-extensions-Echo.git
+	branch = REL1_35
+[submodule "extensions/Editcount"]
+	path = extensions/Editcount
+	url = https://github.com/wikimedia/mediawiki-extensions-Editcount.git
+	branch = REL1_35
+[submodule "extensions/EventBus"]
+	path = extensions/EventBus
+	url = https://github.com/wikimedia/mediawiki-extensions-EventBus.git
+	branch = REL1_35
+[submodule "extensions/googleAnalytics"]
+	path = extensions/googleAnalytics
+	url = https://github.com/wikimedia/mediawiki-extensions-googleAnalytics.git
+	branch = REL1_35
+[submodule "extensions/Lazyload"]
+	path = extensions/Lazyload
+	url = https://github.com/mudkipme/mediawiki-lazyload.git
+[submodule "extensions/MobileFrontend"]
+	path = extensions/MobileFrontend
+	url = https://github.com/wikimedia/mediawiki-extensions-MobileFrontend.git
+	branch = REL1_35
+[submodule "extensions/OAuth"]
+	path = extensions/OAuth
+	url = https://github.com/wikimedia/mediawiki-extensions-OAuth.git
+	branch = REL1_35
+[submodule "extensions/RSS"]
+	path = extensions/RSS
+	url = https://github.com/wikimedia/mediawiki-extensions-RSS.git
+	branch = REL1_35
+[submodule "extensions/Thanks"]
+	path = extensions/Thanks
+	url = https://github.com/wikimedia/mediawiki-extensions-Thanks.git
+	branch = REL1_35
+[submodule "extensions/UserMerge"]
+	path = extensions/UserMerge
+	url = https://github.com/wikimedia/mediawiki-extensions-UserMerge.git
+	branch = REL1_35
+[submodule "extensions/Elastica"]
+	path = extensions/Elastica
+	url = https://github.com/wikimedia/mediawiki-extensions-Elastica.git
 	branch = REL1_35
