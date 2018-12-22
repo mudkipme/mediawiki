@@ -179,4 +179,7 @@
 [submodule "extensions/Elastica"]
 	path = extensions/Elastica
 	url = https://github.com/wikimedia/mediawiki-extensions-Elastica.git
-	branch = REL1_35
+    branch = REL1_35
+[submodule "extensions/AWS"]
+	path = extensions/AWS
+	url = https://github.com/edwardspec/mediawiki-aws-s3.git
