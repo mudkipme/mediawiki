@@ -147,8 +147,8 @@
 	branch = REL1_35
 [submodule "extensions/EventBus"]
 	path = extensions/EventBus
-	url = https://github.com/wikimedia/mediawiki-extensions-EventBus.git
-	branch = REL1_35
+	url = https://github.com/mudkipme/mediawiki-extensions-EventBus.git
+	branch = 52w
 [submodule "extensions/googleAnalytics"]
 	path = extensions/googleAnalytics
 	url = https://github.com/wikimedia/mediawiki-extensions-googleAnalytics.git
