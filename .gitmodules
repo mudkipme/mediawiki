@@ -183,3 +183,7 @@
 [submodule "extensions/AWS"]
 	path = extensions/AWS
 	url = https://github.com/edwardspec/mediawiki-aws-s3.git
+[submodule "extensions/TemplateStyles"]
+	path = extensions/TemplateStyles
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateStyles.git
+	branch = REL1_33
