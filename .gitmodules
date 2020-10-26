@@ -16,8 +16,8 @@
 	branch = REL1_35
 [submodule "extensions/ConfirmEdit"]
 	path = extensions/ConfirmEdit
-	url = https://github.com/mudkipme/mediawiki-extensions-ConfirmEdit.git
-	branch = REL1_33
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit
+	branch = REL1_35
 [submodule "extensions/Gadgets"]
 	path = extensions/Gadgets
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets
@@ -186,4 +186,4 @@
 [submodule "extensions/TemplateStyles"]
 	path = extensions/TemplateStyles
 	url = https://github.com/wikimedia/mediawiki-extensions-TemplateStyles.git
-	branch = REL1_33
+	branch = REL1_35
