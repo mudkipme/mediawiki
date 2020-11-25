@@ -24,6 +24,7 @@ RUN curl https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
     && cd /home/52poke/wiki/extensions/CirrusSearch && composer install --no-dev \
     && cd /home/52poke/wiki/extensions/AWS && composer install --no-dev \
     && cd /home/52poke/wiki/extensions/EventBus && composer install --no-dev \
+	&& cd /home/52poke/wiki/extensions/OAuth && composer install --no-dev \
     && cd /home/52poke/wiki/extensions/TemplateStyles && composer install --no-dev
 
 RUN chown -R www-data:www-data /home/52poke/wiki
