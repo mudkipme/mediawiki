@@ -72,8 +72,8 @@
 	branch = REL1_35
 [submodule "extensions/ReplaceText"]
 	path = extensions/ReplaceText
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
-	branch = REL1_35
+	url = https://github.com/mudkipme/mediawiki-extensions-ReplaceText.git
+	branch = 52w
 [submodule "extensions/Scribunto"]
 	path = extensions/Scribunto
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto
