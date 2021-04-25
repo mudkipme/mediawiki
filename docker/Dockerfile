@@ -19,13 +19,8 @@ COPY ./docker/php.ini /usr/local/etc/php/
 COPY ./docker/supervisord.conf /etc/supervisor/supervisord.conf
 COPY . /home/52poke/wiki
 
-RUN curl https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=1.10.17 \
-    && cd /home/52poke/wiki/extensions/Elastica && composer install --no-dev \
-    && cd /home/52poke/wiki/extensions/CirrusSearch && composer install --no-dev \
-    && cd /home/52poke/wiki/extensions/AWS && composer install --no-dev \
-    && cd /home/52poke/wiki/extensions/EventBus && composer install --no-dev \
-	&& cd /home/52poke/wiki/extensions/OAuth && composer install --no-dev \
-    && cd /home/52poke/wiki/extensions/TemplateStyles && composer install --no-dev
+RUN curl https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
+    && cd /home/52poke/wiki && composer install --no-dev
 
 RUN chown -R www-data:www-data /home/52poke/wiki
 
